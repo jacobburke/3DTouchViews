@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131379BA1FB9661900C640DC /* eiffel_tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 131379B91FB9661900C640DC /* eiffel_tower.jpg */; };
+		131379BC1FB9664700C640DC /* empire_state_building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 131379BB1FB9664700C640DC /* empire_state_building.jpg */; };
+		131379BE1FB9665B00C640DC /* buckingham_palace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 131379BD1FB9665B00C640DC /* buckingham_palace.jpg */; };
+		131379C01FB9666D00C640DC /* grand_canyon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 131379BF1FB9666D00C640DC /* grand_canyon.jpg */; };
+		131379C21FB9667B00C640DC /* windsor_castle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 131379C11FB9667B00C640DC /* windsor_castle.jpg */; };
 		13BCCC9C1FB955C900304891 /* AttractionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCCC9B1FB955C900304891 /* AttractionTableViewController.swift */; };
 		13BCCC9E1FB9564E00304891 /* AttractionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BCCC9D1FB9564E00304891 /* AttractionTableViewCell.swift */; };
 		13E55EDD1FB94938009A104A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E55EDC1FB94938009A104A /* AppDelegate.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		131379B91FB9661900C640DC /* eiffel_tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eiffel_tower.jpg; sourceTree = "<group>"; };
+		131379BB1FB9664700C640DC /* empire_state_building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empire_state_building.jpg; sourceTree = "<group>"; };
+		131379BD1FB9665B00C640DC /* buckingham_palace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buckingham_palace.jpg; sourceTree = "<group>"; };
+		131379BF1FB9666D00C640DC /* grand_canyon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grand_canyon.jpg; sourceTree = "<group>"; };
+		131379C11FB9667B00C640DC /* windsor_castle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = windsor_castle.jpg; sourceTree = "<group>"; };
 		13BCCC9B1FB955C900304891 /* AttractionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionTableViewController.swift; sourceTree = "<group>"; };
 		13BCCC9D1FB9564E00304891 /* AttractionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionTableViewCell.swift; sourceTree = "<group>"; };
 		13E55ED91FB94938009A104A /* 3DTouchViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		131379C31FB9691300C640DC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				13E55EE01FB94938009A104A /* Main.storyboard */,
+				13E55EE51FB94938009A104A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		13E55ED01FB94938009A104A = {
 			isa = PBXGroup;
 			children = (
@@ -59,9 +78,13 @@
 				13E55EDC1FB94938009A104A /* AppDelegate.swift */,
 				13BCCC9B1FB955C900304891 /* AttractionTableViewController.swift */,
 				13BCCC9D1FB9564E00304891 /* AttractionTableViewCell.swift */,
-				13E55EE01FB94938009A104A /* Main.storyboard */,
 				13E55EE31FB94938009A104A /* Assets.xcassets */,
-				13E55EE51FB94938009A104A /* LaunchScreen.storyboard */,
+				131379BD1FB9665B00C640DC /* buckingham_palace.jpg */,
+				131379B91FB9661900C640DC /* eiffel_tower.jpg */,
+				131379BF1FB9666D00C640DC /* grand_canyon.jpg */,
+				131379C11FB9667B00C640DC /* windsor_castle.jpg */,
+				131379BB1FB9664700C640DC /* empire_state_building.jpg */,
+				131379C31FB9691300C640DC /* Storyboards */,
 				13E55EE81FB94938009A104A /* Info.plist */,
 			);
 			path = 3DTouchViews;
@@ -127,7 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				13E55EE71FB94938009A104A /* LaunchScreen.storyboard in Resources */,
+				131379C01FB9666D00C640DC /* grand_canyon.jpg in Resources */,
+				131379C21FB9667B00C640DC /* windsor_castle.jpg in Resources */,
 				13E55EE41FB94938009A104A /* Assets.xcassets in Resources */,
+				131379BC1FB9664700C640DC /* empire_state_building.jpg in Resources */,
+				131379BA1FB9661900C640DC /* eiffel_tower.jpg in Resources */,
+				131379BE1FB9665B00C640DC /* buckingham_palace.jpg in Resources */,
 				13E55EE21FB94938009A104A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -50,9 +50,9 @@
                                             </constraints>
                                         </stackView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g31-aS-aW0">
-                                            <rect key="frame" x="123" y="12" width="150" height="20.5"/>
+                                            <rect key="frame" x="145" y="12" width="175" height="20.5"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="150" id="wzi-Yu-QQe"/>
+                                                <constraint firstAttribute="width" constant="175" id="m7M-6A-qTJ"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -60,12 +60,12 @@
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="g31-aS-aW0" firstAttribute="centerY" secondItem="RUP-ti-fiD" secondAttribute="centerY" id="4qZ-wq-TEO"/>
                                         <constraint firstItem="x2a-Zi-kfp" firstAttribute="leading" secondItem="RUP-ti-fiD" secondAttribute="leading" constant="10" id="HKT-uC-opR"/>
                                         <constraint firstAttribute="bottom" secondItem="x2a-Zi-kfp" secondAttribute="bottom" id="HtQ-9y-z9M"/>
-                                        <constraint firstItem="g31-aS-aW0" firstAttribute="leading" secondItem="x2a-Zi-kfp" secondAttribute="trailing" constant="10" id="PbD-AV-noh"/>
+                                        <constraint firstItem="g31-aS-aW0" firstAttribute="leading" secondItem="x2a-Zi-kfp" secondAttribute="trailing" constant="32" id="Whj-BA-uha"/>
                                         <constraint firstItem="x2a-Zi-kfp" firstAttribute="top" secondItem="RUP-ti-fiD" secondAttribute="top" id="ZQo-MD-jWq"/>
                                         <constraint firstItem="x2a-Zi-kfp" firstAttribute="centerY" secondItem="RUP-ti-fiD" secondAttribute="centerY" id="eu8-8X-koD"/>
-                                        <constraint firstItem="g31-aS-aW0" firstAttribute="centerY" secondItem="RUP-ti-fiD" secondAttribute="centerY" id="zDu-It-iet"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
