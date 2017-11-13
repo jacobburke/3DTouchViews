@@ -45,6 +45,14 @@ class AttractionTableViewController: UITableViewController {
         
         tableView.rowHeight = 100
         
+        if traitCollection.forceTouchCapability == .available {
+            
+            registerForPreviewing(with: self, sourceView: view)
+        } else {
+            print("3D Touch is not available on your device.")
+            
+        }
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

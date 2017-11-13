@@ -73,7 +73,7 @@
         <!--Attraction Details-->
         <scene sceneID="vq6-MP-J9j">
             <objects>
-                <viewController id="8rs-PS-XLw" customClass="AttractionDetailViewController" customModule="_DTouchViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AttractionDetailViewController" id="8rs-PS-XLw" customClass="AttractionDetailViewController" customModule="_DTouchViews" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iQS-0N-5tU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
