@@ -10,6 +10,7 @@
 		130196F71FB96CD00064FC39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130196F61FB96CD00064FC39 /* Assets.xcassets */; };
 		133B8E341FBA4BA800F11253 /* AttractionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133B8E331FBA4BA800F11253 /* AttractionTableViewController.swift */; };
 		133B8E361FBA4C2800F11253 /* AttractionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133B8E351FBA4C2800F11253 /* AttractionTableViewCell.swift */; };
+		133B8E381FBA56C600F11253 /* AttractionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133B8E371FBA56C600F11253 /* AttractionDetailViewController.swift */; };
 		13E55EDD1FB94938009A104A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E55EDC1FB94938009A104A /* AppDelegate.swift */; };
 		13E55EE21FB94938009A104A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E55EE01FB94938009A104A /* Main.storyboard */; };
 		13E55EE71FB94938009A104A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E55EE51FB94938009A104A /* LaunchScreen.storyboard */; };
@@ -19,6 +20,7 @@
 		130196F61FB96CD00064FC39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../TableViewStory/TableViewStory/Assets.xcassets; sourceTree = "<group>"; };
 		133B8E331FBA4BA800F11253 /* AttractionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionTableViewController.swift; sourceTree = "<group>"; };
 		133B8E351FBA4C2800F11253 /* AttractionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionTableViewCell.swift; sourceTree = "<group>"; };
+		133B8E371FBA56C600F11253 /* AttractionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionDetailViewController.swift; sourceTree = "<group>"; };
 		13E55ED91FB94938009A104A /* 3DTouchViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E55EDC1FB94938009A104A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13E55EE11FB94938009A104A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		13E55ED01FB94938009A104A = {
 			isa = PBXGroup;
 			children = (
+				133B8E371FBA56C600F11253 /* AttractionDetailViewController.swift */,
 				13E55EDB1FB94938009A104A /* 3DTouchViews */,
 				13E55EDA1FB94938009A104A /* Products */,
 			);
@@ -149,6 +152,7 @@
 			files = (
 				13E55EDD1FB94938009A104A /* AppDelegate.swift in Sources */,
 				133B8E361FBA4C2800F11253 /* AttractionTableViewCell.swift in Sources */,
+				133B8E381FBA56C600F11253 /* AttractionDetailViewController.swift in Sources */,
 				133B8E341FBA4BA800F11253 /* AttractionTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
