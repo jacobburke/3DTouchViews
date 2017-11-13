@@ -50,7 +50,6 @@
 		13E55ED01FB94938009A104A = {
 			isa = PBXGroup;
 			children = (
-				133B8E371FBA56C600F11253 /* AttractionDetailViewController.swift */,
 				13E55EDB1FB94938009A104A /* 3DTouchViews */,
 				13E55EDA1FB94938009A104A /* Products */,
 			);
@@ -70,6 +69,7 @@
 				13E55EDC1FB94938009A104A /* AppDelegate.swift */,
 				133B8E331FBA4BA800F11253 /* AttractionTableViewController.swift */,
 				133B8E351FBA4C2800F11253 /* AttractionTableViewCell.swift */,
+				133B8E371FBA56C600F11253 /* AttractionDetailViewController.swift */,
 				13E55EE01FB94938009A104A /* Main.storyboard */,
 				130196F61FB96CD00064FC39 /* Assets.xcassets */,
 				131379C31FB9691300C640DC /* Storyboards */,

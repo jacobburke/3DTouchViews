@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Attraction Table View Controller-->
+        <!--Attractions-->
         <scene sceneID="V9v-az-XQR">
             <objects>
                 <tableViewController id="Xn4-C2-wWD" customClass="AttractionTableViewController" customModule="_DTouchViews" customModuleProvider="target" sceneMemberID="viewController">
@@ -55,6 +55,7 @@
                                 <connections>
                                     <outlet property="attractionImage" destination="yEj-TS-tY9" id="sUC-yE-va5"/>
                                     <outlet property="attractionLabel" destination="ZhM-B8-9qa" id="lY6-dS-eah"/>
+                                    <segue destination="8rs-PS-XLw" kind="show" identifier="ShowAttractionDetails" id="g6b-gN-66O"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -63,13 +64,13 @@
                             <outlet property="delegate" destination="Xn4-C2-wWD" id="SVZ-6L-lgA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="gK2-0Q-hRM"/>
+                    <navigationItem key="navigationItem" title="Attractions" id="gK2-0Q-hRM"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kov-sm-ZpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-175.19999999999999" y="94.902548725637189"/>
         </scene>
-        <!--Attraction Detail View Controller-->
+        <!--Attraction Details-->
         <scene sceneID="vq6-MP-J9j">
             <objects>
                 <viewController id="8rs-PS-XLw" customClass="AttractionDetailViewController" customModule="_DTouchViews" customModuleProvider="target" sceneMemberID="viewController">
@@ -79,6 +80,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="iZt-iL-tCO"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Attraction Details" id="N26-Yz-keV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E7j-Xr-IVy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -100,7 +102,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aLz-nw-o4V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-926" y="95"/>
+            <point key="canvasLocation" x="-874" y="95"/>
         </scene>
     </scenes>
 </document>

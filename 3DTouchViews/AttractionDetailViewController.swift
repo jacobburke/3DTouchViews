@@ -10,6 +10,10 @@ import UIKit
 
 class AttractionDetailViewController: UIViewController {
 
+   
+    var webSite : String?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
