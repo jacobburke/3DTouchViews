@@ -43,7 +43,7 @@ class AttractionTableViewController: UITableViewController {
         
         
         
-        tableView.estimatedRowHeight = 50
+        tableView.rowHeight = 100
         
     }
     
