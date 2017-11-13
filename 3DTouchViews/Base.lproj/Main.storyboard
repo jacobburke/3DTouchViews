@@ -77,10 +77,25 @@
                     <view key="view" contentMode="scaleToFill" id="iQS-0N-5tU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bFn-c3-39X">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bFn-c3-39X" firstAttribute="trailing" secondItem="iZt-iL-tCO" secondAttribute="trailing" id="1cH-H1-kVE"/>
+                            <constraint firstItem="bFn-c3-39X" firstAttribute="leading" secondItem="iZt-iL-tCO" secondAttribute="leading" id="CAg-cK-fZh"/>
+                            <constraint firstItem="bFn-c3-39X" firstAttribute="top" secondItem="iZt-iL-tCO" secondAttribute="top" id="GDq-UL-JOB"/>
+                            <constraint firstItem="bFn-c3-39X" firstAttribute="bottom" secondItem="iZt-iL-tCO" secondAttribute="bottom" id="mmy-6B-O1W"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="iZt-iL-tCO"/>
                     </view>
                     <navigationItem key="navigationItem" title="Attraction Details" id="N26-Yz-keV"/>
+                    <connections>
+                        <outlet property="webView" destination="bFn-c3-39X" id="TIF-2j-HJ6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E7j-Xr-IVy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

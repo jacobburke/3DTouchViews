@@ -10,14 +10,22 @@ import UIKit
 
 class AttractionDetailViewController: UIViewController {
 
-   
+    @IBOutlet weak var webView: UIWebView!
+    
     var webSite : String?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        if let address = webSite {
+            let webURL = URL(string: address)
+            let urlRequest = URLRequest(url: webURL!)
+            webView.loadRequest(urlRequest)
+            
+            
+        }
+    
     }
 
     override func didReceiveMemoryWarning() {

@@ -45,10 +45,18 @@ class AttractionTableViewController: UITableViewController {
         
         tableView.estimatedRowHeight = 50
         
-        
-        
-        
-        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowAttractionDetails" {
+            
+            let detailViewController = segue.destination
+                as! AttractionDetailViewController
+            
+            let myIndexPath = self.tableView.indexPathForSelectedRow!
+            let row = myIndexPath.row
+            detailViewController.webSite = webAddresses[row]
+        }
     }
     
     override func didReceiveMemoryWarning() {
