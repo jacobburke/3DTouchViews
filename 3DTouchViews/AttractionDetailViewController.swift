@@ -12,6 +12,7 @@ class AttractionDetailViewController: UIViewController {
 
     @IBOutlet weak var webView: UIWebView!
     
+    
     var webSite : String?
     
     

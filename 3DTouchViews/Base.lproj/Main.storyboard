@@ -78,29 +78,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZEN-Q2-ApL">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jfx-fZ-c1e">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ZEN-Q2-ApL" firstAttribute="trailing" secondItem="iZt-iL-tCO" secondAttribute="trailing" id="CUP-36-hRS"/>
-                            <constraint firstItem="ZEN-Q2-ApL" firstAttribute="leading" secondItem="iZt-iL-tCO" secondAttribute="leading" id="arF-q4-Ce6"/>
-                            <constraint firstItem="ZEN-Q2-ApL" firstAttribute="top" secondItem="iZt-iL-tCO" secondAttribute="top" id="c67-59-kxw"/>
-                            <constraint firstItem="ZEN-Q2-ApL" firstAttribute="bottom" secondItem="iZt-iL-tCO" secondAttribute="bottom" id="iWo-GA-kbg"/>
+                            <constraint firstItem="jfx-fZ-c1e" firstAttribute="bottom" secondItem="iZt-iL-tCO" secondAttribute="bottom" id="5AN-o3-cMI"/>
+                            <constraint firstItem="jfx-fZ-c1e" firstAttribute="top" secondItem="iZt-iL-tCO" secondAttribute="top" id="IsL-Qn-IKc"/>
+                            <constraint firstItem="jfx-fZ-c1e" firstAttribute="trailing" secondItem="iZt-iL-tCO" secondAttribute="trailing" id="R1T-Bw-hug"/>
+                            <constraint firstItem="jfx-fZ-c1e" firstAttribute="leading" secondItem="iZt-iL-tCO" secondAttribute="leading" id="k8u-0E-023"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iZt-iL-tCO"/>
                     </view>
                     <navigationItem key="navigationItem" title="Attraction Details" id="N26-Yz-keV"/>
+                    <connections>
+                        <outlet property="webView" destination="jfx-fZ-c1e" id="Okg-zO-Nuu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E7j-Xr-IVy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="560.5" y="94.5"/>
+            <point key="canvasLocation" x="559.20000000000005" y="94.002998500749626"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mCX-5l-8fN">
